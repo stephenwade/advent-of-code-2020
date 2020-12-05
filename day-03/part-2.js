@@ -31,5 +31,5 @@ for (const [slopeRight, slopeDown] of slopes) {
   treesCounts.push(trees);
 }
 
-const result = treesCounts.reduce((acc, n) => acc * n, 1);
+const result = treesCounts.reduce((acc, n) => acc * n);
 console.log(result);
