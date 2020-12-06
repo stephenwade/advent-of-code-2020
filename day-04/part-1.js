@@ -20,9 +20,8 @@ await readFile(new URL('./input.txt', import.meta.url), (line) => {
 passports.push(nextPassport);
 
 const requiredKeys = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'];
-const passportValid = (passport) => {
-  return requiredKeys.every((key) => key in passport);
-};
+const passportValid = (passport) =>
+  requiredKeys.every((key) => key in passport);
 
 const countValid = passports.reduce(
   (acc, p) => (passportValid(p) ? acc + 1 : acc),
