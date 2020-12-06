@@ -5,3 +5,4 @@ This is my repository for [Advent of Code 2020](https://adventofcode.com/2020).
 - [Day 3](day-03/)
 - [Day 4](day-04/)
 - [Day 5](day-05/)
+- [Day 6](day-06/)
