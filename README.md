@@ -11,3 +11,4 @@ This is my repository for [Advent of Code 2020](https://adventofcode.com/2020).
 - [Day 9](day-09/)
 - [Day 10](day-10/)
 - [Day 11](day-11/)
+- [Day 12](day-12/)
