@@ -1,4 +1,5 @@
 module.exports = {
+  env: { es2020: true },
   extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'],
   parser: '@babel/eslint-parser',
   rules: {
