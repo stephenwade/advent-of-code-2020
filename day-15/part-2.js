@@ -23,7 +23,6 @@ const speak = (number) => {
   if (whenNumberSpoken.length < 2) {
     whenNumberSpoken.push(turn);
   } else {
-    // eslint-disable-next-line prefer-destructuring
     whenNumberSpoken[0] = whenNumberSpoken[1];
     whenNumberSpoken[1] = turn;
   }
