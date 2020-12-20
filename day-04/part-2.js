@@ -49,8 +49,7 @@ const passportValid = (passport) => {
   if (!hasAllKeys) return false;
   for (const key of Object.keys(requirements)) {
     const value = passport[key];
-    const fn = requirements[key];
-    if (typeof fn !== 'function' || !fn(value)) return false;
+    if (!requirements[key](value)) return false;
   }
   return true;
 };
