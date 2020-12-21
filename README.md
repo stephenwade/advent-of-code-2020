@@ -17,3 +17,4 @@ This is my repository for [Advent of Code 2020](https://adventofcode.com/2020).
 - [Day 15](day-15/)
 - [Day 16](day-16/)
 - [Day 17](day-17/)
+- [Day 18](day-18/)
